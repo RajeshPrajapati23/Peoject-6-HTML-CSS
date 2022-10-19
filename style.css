@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.839);
+  font-family: "Allerta", sans-serif;
+  height: 100vh;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-first {
+  margin-left: 5vw;
+}
+.logo {
+  height: 6vh;
+}
+#navMid {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9vw;
+}
+.navmid-space {
+  padding-right: 6vw;
+}
+.cursor {
+  cursor: pointer;
+}
+.cursor:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+#nav-end {
+  display: flex;
+  flex-direction: row;
+}
+.nav-end-flex {
+  padding-right: 3vw;
+}
+
+#hero-whole {
+  display: flex;
+  flex-direction: row;
+}
+.MONSTERS {
+  font-size: 13vh;
+  font-weight: bold;
+}
+#hero-col-1 {
+  margin-left: 5vw;
+  position: relative;
+  top: 10vh;
+}
+#hero-seccond {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 83, 40);
+  border-radius: 20px;
+  width: 15vw;
+  height: 7vh;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+.discover {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.greaterthan {
+  height: 15px;
+  padding-left: 13px;
+  padding-top: 5px;
+}
+#hero-third {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.bottom-discription {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+}
+.water-sprinkle,
+.light-logo,
+.plough {
+  height: 50px;
+}
+.text {
+  font-size: 7px;
+}
+.flower-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80vh;
+  width: 45vw;
+}
